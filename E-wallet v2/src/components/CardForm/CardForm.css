@@ -1,0 +1,65 @@
+.CardForm{
+    
+    padding-top: 2rem;
+}
+
+.cardForm_name-nr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   padding-left: 2rem;
+}
+
+.input_name-nr{
+    width: 90%;
+     
+     padding: .6rem;
+     margin-bottom: 1rem;
+     border-radius: 10px;
+ }
+
+ .cardForm_valid-CCV{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    
+    padding: 2rem;
+ }
+
+ .input_valid-ccv{
+    width: 90%;
+    
+    padding: .6rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.valid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.ccv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.cardForm_vendor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+.input_vendor{
+    width: 95%;
+    
+    padding: .6rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 1.5px 1px 1px grey;
+}
