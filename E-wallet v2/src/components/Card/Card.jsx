@@ -65,15 +65,15 @@ function Card(props) {
       for (let card of cards) {
         card.className = 'card';
     
-        // Check if this is the first card being updated
+        
         if (!isActiveCardAdded) {
-          // Add the 'activeCard' class to the first card
+          
           card.classList.add('activeCard');
           isActiveCardAdded = true;
         }
       }
     
-      // Update the state variable only if the 'activeCard' class was added
+      
       if (isActiveCardAdded) {
         setClassNames(classNames + ' activeCard');
       }
